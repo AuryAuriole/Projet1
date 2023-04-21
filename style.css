@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;800;900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(199, 235, 238, 0.26);
+}
+/*Design de l'acceuil 1*/
+.row{
+    box-sizing: content-box;
+    margin: -1%;
+    justify-items: flex-start;
+    justify-content: space-between;
+    padding: 28px 20px;
+    background-color: white;
+}
+.row a{
+    color: black;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    margin-right: 3.5%;
+}
+.row img{
+    width: 25px;
+    margin-right: 1.2%;
+}
+.row .fleche{
+    width: 19px;
+}
+.verifie{
+    position: absolute;
+    top: 5.6%;
+    right: 25%;
+}
+.verifie img{
+    width: 15px;
+}
+.row h4{
+    position: absolute;
+    text-align: right;
+    top: 2.5%;
+    right: 13%;
+    color: #817e7e;
+    font-size: medium;
+}
+.row p{
+    position: absolute;
+    top: 2.5%;
+    right: 3%;
+    border: solid 1px #0000ff;
+    padding: 3px;
+    font-size: smaller;
+    font-weight: bold;
+    color: white;
+    background: #0000ff;
+    border-radius: 30px;
+    padding: 6px 19px;
+}
+.home{
+    border-bottom: solid 1px #dfd4d4;
+}
+/*Design onglet de navigation*/
+nav{
+    flex: 1;
+    text-align: center;
+    position: relative;
+    padding-bottom: 5%;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 35px;
+    margin-top: 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #817e7e;
+}
+nav ul li a:hover{
+    color: black;
+    cursor: pointer;
+}
+/*Design about me*/
+.about{
+    flex: 1;
+    text-align: center;
+    position: relative;
+    
+}
+.about h7{
+    position: relative;
+    font-weight: 500;   
+}
+.about p{
+    position: relative;
+    font-weight: bold;
+    font-size: larger;
+    color: #817e7e;
+    font-family: sans-serif;
+}
+.about img{
+    position: relative;
+    width: 250px;
+    height: 250px;
+}
+/*media query style*/
+@media only screen and (max-width: 800px){
+
+    .verifie{
+        position: absolute;
+        top: 5.6%;
+        right: 50%;
+    }
+    .row h4{
+        position: absolute;
+        text-align: right;
+        top: 2.5%;
+        right: 25%;
+        color: #817e7e;
+        font-size: medium;
+    }
+}
+@media only screen and (max-width: 600px){
+    .row a{
+        color: black;
+        text-decoration: none;
+        font-size: small;
+        font-weight: bold;
+        margin-right: 0.2%;
+    }
+    .row img{
+        width: 20px;
+        margin-right: 1%;
+        margin-top: 3.5%;
+    }
+    .verifie{
+        position: absolute;
+        top: 4.5%;
+        right: 57%;
+    }
+    .row h4{
+        position: absolute;
+        text-align: right;
+        top: 1.8%;
+        right: 24%;
+        color: #817e7e;
+        font-size: medium;
+    }
+    .row p{
+        position: absolute;
+        top: 2.5%;
+        right: 1.9%;
+        border: solid 1px #0000ff;
+        padding: 3px;
+        font-size: smaller;
+        font-weight: bold;
+        color: white;
+        background: #0000ff;
+        border-radius: 30px;
+        padding: 6px 19px;
+    }
+    .row{
+        box-sizing: content-box;
+        margin: -1%;
+        justify-items: flex-start;
+        justify-content: space-between;
+        padding: 10px 20px;
+        background-color: white;
+    }
+
+
+}
+
+
